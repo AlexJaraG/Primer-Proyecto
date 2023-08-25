@@ -140,4 +140,16 @@ footer{
    nav{
     padding: 15px ;
    }
+
+   .primer-bloque{
+    flex-direction: column;
+    padding-left: 30%;
+   }
+
+   footer{
+    flex-direction: column;
+    padding-left: 30%;
+    }
+
+   
 }
