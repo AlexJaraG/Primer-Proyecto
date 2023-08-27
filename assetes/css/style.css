@@ -170,24 +170,27 @@ footer{
 
 
 @media (max-width:820px) {
-   header{
-    flex-direction: column;
-    width: 100%;
-   }
-
-    nav{
+   nav{
     padding: 15px ;
    }
-
-   .primer-bloque{
-    flex-direction: column;
-    padding-left: 30%;
-   }
-
+   header,
+   .primer-bloque,
    footer{
     flex-direction: column;
-    padding-left: 30%;
-    }
+    width: 500px;
+    align-items: center;
+    
+   }
 
-   
+   .tarjetas{
+    flex-direction: column;
+    align-items: center;
+    
+   }
+
+   .tarjeta-individual a img{
+    width: 400px;
+    height: 400px;
+    padding: 0 20px;
+    }   
 }
