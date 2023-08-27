@@ -148,6 +148,59 @@ header{
     font-weight: bold;
 }
 
+.contacto{
+    background: #0d2d53;
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto-img{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    padding: 30px;
+}
+
+.contacto-img img{
+    border-radius: 20px;
+    box-shadow: 12px 12px 8px #5e83ba;
+}
+
+.contacto-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.contacto-texto p{
+    color: #fff;
+    font-size: 30px;
+}
+
+.contacto-texto span{
+    font-size: 40px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.contacto-texto button{
+    width: 200px;
+    padding: 16px;
+    border-radius: 16px;
+    background: green;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contacto-texto button:hover{
+    opacity: .8;
+    font-weight: bold;
+}
+
 footer{
     display: flex;
     justify-content: center;
@@ -171,11 +224,14 @@ footer{
 
 
 @media (max-width:820px) {
-   nav{
+   nav,
+   .contacto{
     padding: 15px ;
    }
+
    header,
    .primer-bloque,
+   .contacto,
    footer{
     flex-direction: column;
     width: 500px;
